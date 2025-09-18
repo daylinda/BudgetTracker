@@ -1,12 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Tracker",
-    "\\TrackerApp.API",
-    "\\TrackerApp.API\\bin",
-    "\\TrackerApp.API\\obj",
-    "\\TrackerApp.API\\obj\\Debug",
-    "\\Tracker\\bin"
+    "\\TrackerApp.API\\Config",
+    "\\TrackerApp.API\\Controllers",
+    "\\TrackerApp.API\\Model",
+    "\\TrackerApp.API\\Services"
   ],
+  "SelectedNode": "\\Tracker.sln",
   "PreviewInSolutionExplorer": false
 }

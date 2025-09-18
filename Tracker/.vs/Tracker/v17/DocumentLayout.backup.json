@@ -1,12 +1,181 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Tailored Accounts\\source\\BudgetTracker\\Tracker\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86ABAAF9-AC16-461A-8195-31329B28DBA8}|Tracker\\Tracker.csproj|c:\\users\\tailored accounts\\source\\budgettracker\\tracker\\tracker\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86ABAAF9-AC16-461A-8195-31329B28DBA8}|Tracker\\Tracker.csproj|solutionrelative:tracker\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86ABAAF9-AC16-461A-8195-31329B28DBA8}|Tracker\\Tracker.csproj|c:\\users\\tailored accounts\\source\\budgettracker\\tracker\\tracker\\viewmodel\\notificationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86ABAAF9-AC16-461A-8195-31329B28DBA8}|Tracker\\Tracker.csproj|solutionrelative:tracker\\viewmodel\\notificationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86ABAAF9-AC16-461A-8195-31329B28DBA8}|Tracker\\Tracker.csproj|c:\\users\\tailored accounts\\source\\budgettracker\\tracker\\tracker\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86ABAAF9-AC16-461A-8195-31329B28DBA8}|Tracker\\Tracker.csproj|solutionrelative:tracker\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86ABAAF9-AC16-461A-8195-31329B28DBA8}|Tracker\\Tracker.csproj|c:\\users\\tailored accounts\\source\\budgettracker\\tracker\\tracker\\model\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86ABAAF9-AC16-461A-8195-31329B28DBA8}|Tracker\\Tracker.csproj|solutionrelative:tracker\\model\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86ABAAF9-AC16-461A-8195-31329B28DBA8}|Tracker\\Tracker.csproj|c:\\users\\tailored accounts\\source\\budgettracker\\tracker\\tracker\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86ABAAF9-AC16-461A-8195-31329B28DBA8}|Tracker\\Tracker.csproj|solutionrelative:tracker\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86ABAAF9-AC16-461A-8195-31329B28DBA8}|Tracker\\Tracker.csproj|c:\\users\\tailored accounts\\source\\budgettracker\\tracker\\tracker\\iservices\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86ABAAF9-AC16-461A-8195-31329B28DBA8}|Tracker\\Tracker.csproj|solutionrelative:tracker\\iservices\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86ABAAF9-AC16-461A-8195-31329B28DBA8}|Tracker\\Tracker.csproj|c:\\users\\tailored accounts\\source\\budgettracker\\tracker\\tracker\\view\\notificationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{86ABAAF9-AC16-461A-8195-31329B28DBA8}|Tracker\\Tracker.csproj|solutionrelative:tracker\\view\\notificationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86ABAAF9-AC16-461A-8195-31329B28DBA8}|Tracker\\Tracker.csproj|c:\\users\\tailored accounts\\source\\budgettracker\\tracker\\tracker\\tracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{86ABAAF9-AC16-461A-8195-31329B28DBA8}|Tracker\\Tracker.csproj|solutionrelative:tracker\\tracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86ABAAF9-AC16-461A-8195-31329B28DBA8}|Tracker\\Tracker.csproj|c:\\users\\tailored accounts\\source\\budgettracker\\tracker\\tracker\\config\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86ABAAF9-AC16-461A-8195-31329B28DBA8}|Tracker\\Tracker.csproj|solutionrelative:tracker\\config\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|c:\\users\\tailored accounts\\source\\budgettracker\\tracker\\trackerapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|solutionrelative:trackerapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\Tailored Accounts\\source\\BudgetTracker\\Tracker\\Tracker\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "Tracker\\Services\\NotificationService.cs",
+              "ToolTip": "C:\\Users\\Tailored Accounts\\source\\BudgetTracker\\Tracker\\Tracker\\Services\\NotificationService.cs",
+              "RelativeToolTip": "Tracker\\Services\\NotificationService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwBMAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T03:41:10.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotificationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Tailored Accounts\\source\\BudgetTracker\\Tracker\\Tracker\\ViewModel\\NotificationViewModel.cs",
+              "RelativeDocumentMoniker": "Tracker\\ViewModel\\NotificationViewModel.cs",
+              "ToolTip": "C:\\Users\\Tailored Accounts\\source\\BudgetTracker\\Tracker\\Tracker\\ViewModel\\NotificationViewModel.cs",
+              "RelativeToolTip": "Tracker\\ViewModel\\NotificationViewModel.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAwCMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T23:54:21.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Tailored Accounts\\source\\BudgetTracker\\Tracker\\Tracker\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "Tracker\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\Tailored Accounts\\source\\BudgetTracker\\Tracker\\Tracker\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "Tracker\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T23:54:38.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\Tailored Accounts\\source\\BudgetTracker\\Tracker\\Tracker\\Model\\Notification.cs",
+              "RelativeDocumentMoniker": "Tracker\\Model\\Notification.cs",
+              "ToolTip": "C:\\Users\\Tailored Accounts\\source\\BudgetTracker\\Tracker\\Tracker\\Model\\Notification.cs",
+              "RelativeToolTip": "Tracker\\Model\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T06:45:38.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Tailored Accounts\\source\\BudgetTracker\\Tracker\\Tracker\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Tracker\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Tailored Accounts\\source\\BudgetTracker\\Tracker\\Tracker\\MauiProgram.cs",
+              "RelativeToolTip": "Tracker\\MauiProgram.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T03:42:26.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Tailored Accounts\\source\\BudgetTracker\\Tracker\\TrackerApp.API\\appsettings.json",
+              "RelativeDocumentMoniker": "TrackerApp.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Tailored Accounts\\source\\BudgetTracker\\Tracker\\TrackerApp.API\\appsettings.json",
+              "RelativeToolTip": "TrackerApp.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-12T06:57:04.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\Tailored Accounts\\source\\BudgetTracker\\Tracker\\Tracker\\IServices\\INotificationService.cs",
+              "RelativeDocumentMoniker": "Tracker\\IServices\\INotificationService.cs",
+              "ToolTip": "C:\\Users\\Tailored Accounts\\source\\BudgetTracker\\Tracker\\Tracker\\IServices\\INotificationService.cs",
+              "RelativeToolTip": "Tracker\\IServices\\INotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T01:12:26.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "C:\\Users\\Tailored Accounts\\source\\BudgetTracker\\Tracker\\Tracker\\Config\\Settings.cs",
+              "RelativeDocumentMoniker": "Tracker\\Config\\Settings.cs",
+              "ToolTip": "C:\\Users\\Tailored Accounts\\source\\BudgetTracker\\Tracker\\Tracker\\Config\\Settings.cs",
+              "RelativeToolTip": "Tracker\\Config\\Settings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T01:15:43.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Tracker.csproj",
+              "DocumentMoniker": "C:\\Users\\Tailored Accounts\\source\\BudgetTracker\\Tracker\\Tracker\\Tracker.csproj",
+              "RelativeDocumentMoniker": "Tracker\\Tracker.csproj",
+              "ToolTip": "C:\\Users\\Tailored Accounts\\source\\BudgetTracker\\Tracker\\Tracker\\Tracker.csproj",
+              "RelativeToolTip": "Tracker\\Tracker.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-18T01:23:26.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NotificationView.xaml",
+              "DocumentMoniker": "C:\\Users\\Tailored Accounts\\source\\BudgetTracker\\Tracker\\Tracker\\View\\NotificationView.xaml",
+              "RelativeDocumentMoniker": "Tracker\\View\\NotificationView.xaml",
+              "ToolTip": "C:\\Users\\Tailored Accounts\\source\\BudgetTracker\\Tracker\\Tracker\\View\\NotificationView.xaml",
+              "RelativeToolTip": "Tracker\\View\\NotificationView.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwB0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-17T23:53:24.86Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,3 +1,6 @@
 {
-  "ApiEndpointAddress": "https://localhost:7155"
+  "Settings": {
+    "ApiBaseUrl": "https://localhost:7155"
+  }
+  
 }
