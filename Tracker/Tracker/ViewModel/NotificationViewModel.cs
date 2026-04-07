@@ -1,11 +1,9 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
-using CommunityToolkit.Mvvm.Input;
-using System;
-using System.Collections.Generic;
+﻿
+using CommunityToolkit.Mvvm.ComponentModel;  // ObservableProperty, ObservableObject
+using CommunityToolkit.Mvvm.Input;           // RelayCommand
+
+using System.Collections.ObjectModel;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Tracker.IServices;
 using Tracker.Model;
 
@@ -20,7 +18,13 @@ namespace Tracker.ViewModel
         private string _welcomeText;
 
         [ObservableProperty]
-        private List<Notification> _notifications;
+        private bool _isBusy;
+
+        [ObservableProperty]
+        private string _errorMessage = string.Empty;
+
+        [ObservableProperty]
+        private ObservableCollection<Notification> _notifications = new();
 
         public NotificationViewModel(INotificationService notificationService) {
             WelcomeText = "Hi! Hope you are well";
@@ -30,18 +34,24 @@ namespace Tracker.ViewModel
         }
 
         [RelayCommand]
-        private void GetNotifications()
+        private async Task GetNotificationsAsync()
         {
-            Debug.WriteLine("here");
-            Notifications = getNotificationsAsync().Result.ToList();
-            
-                
-
-            foreach(Notification note in Notifications)
+            if (IsBusy) return;
+            try
             {
-                Console.WriteLine("here");
+                IsBusy = true;
+                ErrorMessage = string.Empty;
+                var results = await _notificationService.GetNotificationsAsync();
+                Notifications.Clear();
+                foreach (var note in results)
+                    Notifications.Add(note);
             }
-
+            catch (Exception ex)
+            {
+                ErrorMessage = "Failed to load. Please try again.";
+                Debug.WriteLine($"Error: {ex.Message}");
+            }
+            finally { IsBusy = false; }
         }
 
         private async Task<List<Notification>> getNotificationsAsync()

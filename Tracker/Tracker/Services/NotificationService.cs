@@ -1,4 +1,4 @@
-﻿using Microsoft.Extensions.Options;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -62,7 +62,7 @@ namespace Tracker.Services
 
         public async Task PostNotificationAsync(Notification notification)
         {
-            await _httpClient.PostAsJsonAsync("notifications", notification);
+            await _httpClient.PostAsJsonAsync("/notification", notification);
         }
     }
 }

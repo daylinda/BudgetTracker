@@ -1,144 +1,216 @@
-# BudgetTracker
+# Tracker App — Setup & Fix Guide
 
-Tracks spending across your apps via notifications — aggregate all your transactions in one place.  
-Uses app/bank notifications (incoming & outgoing) to record money flows, so you can see your base spending/earning, weekly trends, and what categories you spend most/least on monthly.
+## What is this?
 
-**This is still in the initial stages of development**
-
----
-
-## ✨ Features
-
-- 📲 Automatic capture of spend/earn notifications  
-- 📊 Weekly and monthly summaries of income vs expenses  
-- 🗂️ Highlight highest/lowest spending categories per month  
-- 💰 Simple budget overviews  
-- 🔌 Extendable support for multiple apps/accounts  
+A two-part solution:
+- **`Tracker/`** — .NET MAUI mobile app (Android/iOS/Windows) that displays push notifications
+- **`TrackerApp.API/`** — ASP.NET Core 8 Web API that stores/retrieves notifications via Firebase Realtime Database
 
 ---
 
-## 🛠️ Tech Stack
+## Bugs Fixed
 
-*(Adjust based on what the repo actually uses)*  
+The following issues were preventing the app from working:
 
-- **C# / .NET**  
-- **.NET MAUI** (cross-platform UI)  
-- **REST API** backend  
-- **Firebase Realtime Database**  
-- **Docker** (if applicable)  
+### 1. Deadlock in ViewModel (Critical)
+**File:** `Tracker/ViewModel/NotificationViewModel.cs`
+
+The original code called `.Result` on an async Task from the UI thread, causing a deadlock that freezes the app silently.
+
+```csharp
+// BROKEN — blocks UI thread, causes deadlock
+Notifications = getNotificationsAsync().Result.ToList();
+
+// FIXED — proper async relay command
+[RelayCommand]
+private async Task GetNotificationsAsync()
+{
+    var results = await _notificationService.GetNotificationsAsync();
+    ...
+}
+```
+
+### 2. Wrong POST Endpoint URL (Bug)
+**File:** `Tracker/Services/NotificationService.cs`
+
+The MAUI service was posting to `"notifications"` but the API controller's route is `/notification`.
+
+```csharp
+// BROKEN
+await _httpClient.PostAsJsonAsync("notifications", notification);
+
+// FIXED
+await _httpClient.PostAsJsonAsync("/notification", notification);
+```
+
+### 3. API Crashes on Missing Firebase Key (Critical)
+**File:** `TrackerApp.API/Program.cs`
+
+`FirebaseApp.Create()` was called unconditionally. If `Config/firebase-key.json` is missing (which it always is on a fresh clone), the API throws at startup.
+
+**Fixed:** Wrapped in a `File.Exists()` check with a clear console warning.
+
+### 4. List vs ObservableCollection
+**File:** `Tracker/ViewModel/NotificationViewModel.cs`
+
+`List<Notification>` doesn't notify the UI when items change. Replaced with `ObservableCollection<Notification>` so the CollectionView updates automatically.
+
+### 5. UserService Not Registered
+**File:** `TrackerApp.API/Program.cs`
+
+`UserService` was instantiated in its controller but never added to the DI container, causing a runtime injection error.
+
+**Fixed:** Added `builder.Services.AddSingleton<UserService>();`
+
+### 6. No CORS Policy
+**File:** `TrackerApp.API/Program.cs`
+
+The MAUI Android/iOS app would be blocked by CORS when calling the local API. Added a development CORS policy.
 
 ---
 
-## 🚀 Getting Started
+## Prerequisites
 
-These instructions will help you run a local copy for development and testing.
+| Tool | Version | Notes |
+|------|---------|-------|
+| Visual Studio 2022 | 17.8+ | With MAUI and ASP.NET workloads |
+| .NET SDK | 8.0 | `dotnet --version` to check |
+| Android SDK | API 21+ | Via VS Android Tools |
+| Firebase Project | — | Free tier is sufficient |
 
-### ✅ Prerequisites
+---
 
-- .NET SDK (version X or higher)  
-- Node.js (if backend used)  
-- Firebase credentials (or other DB)  
-- (Optional) Docker  
+## First-Time Setup
 
-### ⚙️ Installation
+### Step 1 — Firebase Project
 
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/daylinda/BudgetTracker.git
-   cd BudgetTracker
+1. Go to [console.firebase.google.com](https://console.firebase.google.com)
+2. Create a project (or use `trackerapp-b5664` if you already have it)
+3. Enable **Realtime Database** → Start in test mode
+4. Go to **Project Settings → Service Accounts → Generate new private key**
+5. Save the downloaded JSON as:
    ```
-2. Run the application
-   ```bash
-   dotnet run
+   TrackerApp.API/Config/firebase-key.json
    ```
-   Or open in Visual Studio / VS Code and run directly.
-   
-3. (If applicable) Start backend services
-   ```bash
-   npm run dev
-   ```
-   or
-   ```bash
-   dotnet run
-   ```
+   ⚠️ **Never commit this file to Git.** It is already in `.gitignore`.
 
-## ⚙️ Setup Environment / Configuration
+### Step 2 — Configure the API
 
-- Place your Firebase/database connection keys in the appropriate config/secrets file  
-- Update `.env` or settings file if provided  
+Open `TrackerApp.API/appsettings.json` and verify your Firebase details match:
 
-### Restore dependencies & build
+```json
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(local); Database=LoginApiMauiDb; Trusted_Connection=True; Trust Server Certificate=True; MultipleActiveResultSets=True"
+  },
+  "Firebase": {
+    "ProjectId": "YOUR_FIREBASE_PROJECT_ID",
+    "DatabaseUrl": "https://YOUR_PROJECT_ID-default-rtdb.YOUR_REGION.firebasedatabase.app/"
+  }
+}
+```
+
+### Step 3 — Run the API
 
 ```bash
-dotnet restore
-dotnet build
+cd TrackerApp.API
+dotnet run
 ```
 
-## 📖 Usage
+The API starts at `https://localhost:7155` (or check `Properties/launchSettings.json` for your port).
 
-Once running, you can:
+Verify it's running by visiting:
+- `https://localhost:7155/swagger` — Swagger UI
+- `https://localhost:7155/all` — Returns `[]` if no notifications yet
 
-- Receive notifications capturing transaction details  
-- View dashboards summarising spending/income  
-- Filter by date ranges  
-- See category breakdowns  
-- Compare actual spending vs budget  
-- Identify highest and lowest spending categories monthly  
+### Step 4 — Configure the MAUI App
+
+Open `Tracker/Config/settings.json` and confirm the URL matches your running API:
+
+```json
+{
+  "Settings": {
+    "ApiBaseUrl": "https://localhost:7155"
+  }
+}
+```
+
+> **Android emulator note:** `localhost` doesn't resolve to your machine from within the Android emulator. Use `10.0.2.2` instead:
+> ```json
+> { "Settings": { "ApiBaseUrl": "https://10.0.2.2:7155" } }
+> ```
+
+### Step 5 — Run the MAUI App
+
+Open `Tracker.sln` in Visual Studio 2022, select your target (Android Emulator, iOS Simulator, or Windows Machine), and press **Run**.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
-```plaintext
-BudgetTracker/
-├── .gitignore
-├── README.md
-├── Tracker/           ← MAUI / client app
-│   ├── src/
-│   ├── Resources/
-│   └── ...
-├── Backend/           ← REST API / server logic (if separate)
-│   ├── Controllers/
-│   ├── Models/
+```
+Tracker/
+├── Tracker/                        ← .NET MAUI App
+│   ├── Config/
+│   │   ├── Settings.cs             ← Config model
+│   │   └── settings.json           ← Embedded API base URL
+│   ├── IServices/
+│   │   └── INotificationService.cs ← Interface
+│   ├── Model/
+│   │   └── Notification.cs         ← Data model
 │   ├── Services/
-│   └── ...
-├── docker-compose.yml (if used)
-└── ...
+│   │   └── NotificationService.cs  ← HTTP client calling the API
+│   ├── View/
+│   │   └── NotificationView.xaml   ← UI: list of notifications
+│   ├── ViewModel/
+│   │   ├── MainViewModel.cs
+│   │   └── NotificationViewModel.cs← Fetch & display logic
+│   └── MauiProgram.cs              ← DI wiring
+│
+└── TrackerApp.API/                 ← ASP.NET Core API
+    ├── Config/
+    │   ├── FirebaseSettings.cs
+    │   └── firebase-key.json       ← YOU MUST ADD THIS (not in repo)
+    ├── Controllers/
+    │   ├── NotificationController.cs  GET /all, POST /notification
+    │   └── UserController.cs
+    ├── Model/
+    │   ├── Notification.cs
+    │   └── User.cs
+    ├── Services/
+    │   ├── NotificationService.cs  ← Firebase Realtime DB read/write
+    │   └── UserService.cs
+    ├── appsettings.json            ← Firebase config + connection string
+    └── Program.cs                  ← App startup & DI
 ```
 
 ---
 
-## 🤝 Contributing
+## API Endpoints
 
-Contributions are welcome!
-
-1. Fork the repository  
-2. Create a feature branch  
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Make your changes  
-4. Commit with descriptive messages  
-5. Push to your fork and open a Pull Request  
-
-Please follow the existing code style, add tests where possible, and document your changes.
+| Method | Route | Description |
+|--------|-------|-------------|
+| GET | `/all` | Returns all notifications from Firebase |
+| POST | `/notification` | Saves a new notification to Firebase |
 
 ---
 
-## 🗺️ Roadmap & Future Enhancements
+## Common Errors & Fixes
 
-- Support for multiple currencies  
-- Richer analytics and trend visualisations  
-- Dark mode / theming  
-- Recurring transaction detection  
-- Alerts for exceeding budgets  
-- Export data (CSV, JSON)  
-- Syncing/backup across devices  
-- Mobile/wearable integration  
+| Error | Cause | Fix |
+|-------|-------|-----|
+| API crashes at startup | `firebase-key.json` missing | Add your service account key to `Config/` |
+| `FileNotFoundException: settings.json` | Build action not set | Ensure `settings.json` is `EmbeddedResource` in `.csproj` |
+| App hangs on button press | `.Result` deadlock (old code) | Use the fixed async ViewModel |
+| Android can't reach API | `localhost` doesn't resolve | Use `10.0.2.2` in `settings.json` for Android emulator |
+| `POST` returns 404 | Wrong endpoint path | Fixed — now posts to `/notification` |
+| CORS error in browser/emulator | No CORS policy | Fixed — `AllowAll` policy added for development |
 
 ---
 
-## 📜 License
+## What's Not Yet Implemented
 
-This project is licensed under the **MIT License**.  
-See the [LICENSE](LICENSE) file for details.
+- **Authentication** — `UserController` is empty; Firebase Auth is imported but not wired up
+- **User-specific notifications** — `UserId` field exists on the model but is not filtered
+- **SQL Server** — EF Core + SQL Server packages are present but no `DbContext` is defined
+- **Push notifications** — The app receives and displays notifications but doesn't yet register a device token for real push delivery
