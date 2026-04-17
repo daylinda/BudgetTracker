@@ -3,36 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|solutionrelative:trackerapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.api\\controllers\\budgetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|solutionrelative:trackerapp.api\\controllers\\budgetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.api\\services\\budgetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|solutionrelative:trackerapp.api\\services\\budgetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.api\\repositories\\transactionreposirtory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|solutionrelative:trackerapp.api\\repositories\\transactionreposirtory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.api\\repositories\\budgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|solutionrelative:trackerapp.api\\repositories\\budgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.api\\repositories\\interfaces\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|solutionrelative:trackerapp.api\\repositories\\interfaces\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.api\\repositories\\interfaces\\ibudgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|solutionrelative:trackerapp.api\\repositories\\interfaces\\ibudgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.api\\model\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|solutionrelative:trackerapp.api\\model\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\trackerapp.maui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\trackerapp.maui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,105 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Program.cs",
-              "RelativeDocumentMoniker": "TrackerApp.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Program.cs",
-              "RelativeToolTip": "TrackerApp.API\\Program.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAABkAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T01:33:56.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BudgetController.cs",
-              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Controllers\\BudgetController.cs",
-              "RelativeDocumentMoniker": "TrackerApp.API\\Controllers\\BudgetController.cs",
-              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Controllers\\BudgetController.cs",
-              "RelativeToolTip": "TrackerApp.API\\Controllers\\BudgetController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwFAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T01:33:18.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BudgetService.cs",
-              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Services\\BudgetService.cs",
-              "RelativeDocumentMoniker": "TrackerApp.API\\Services\\BudgetService.cs",
-              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Services\\BudgetService.cs",
-              "RelativeToolTip": "TrackerApp.API\\Services\\BudgetService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAuwDcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T01:32:54.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TransactionReposirtory.cs",
-              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Repositories\\TransactionReposirtory.cs",
-              "RelativeDocumentMoniker": "TrackerApp.API\\Repositories\\TransactionReposirtory.cs",
-              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Repositories\\TransactionReposirtory.cs",
-              "RelativeToolTip": "TrackerApp.API\\Repositories\\TransactionReposirtory.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T01:32:34.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BudgetRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Repositories\\BudgetRepository.cs",
-              "RelativeDocumentMoniker": "TrackerApp.API\\Repositories\\BudgetRepository.cs",
-              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Repositories\\BudgetRepository.cs",
-              "RelativeToolTip": "TrackerApp.API\\Repositories\\BudgetRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T01:32:01.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ITransactionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Repositories\\Interfaces\\ITransactionRepository.cs",
-              "RelativeDocumentMoniker": "TrackerApp.API\\Repositories\\Interfaces\\ITransactionRepository.cs",
-              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Repositories\\Interfaces\\ITransactionRepository.cs",
-              "RelativeToolTip": "TrackerApp.API\\Repositories\\Interfaces\\ITransactionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T01:31:39.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IBudgetRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Repositories\\Interfaces\\IBudgetRepository.cs",
-              "RelativeDocumentMoniker": "TrackerApp.API\\Repositories\\Interfaces\\IBudgetRepository.cs",
-              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Repositories\\Interfaces\\IBudgetRepository.cs",
-              "RelativeToolTip": "TrackerApp.API\\Repositories\\Interfaces\\IBudgetRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T01:31:18.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Budget.cs",
-              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Model\\Budget.cs",
-              "RelativeDocumentMoniker": "TrackerApp.API\\Model\\Budget.cs",
-              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Model\\Budget.cs",
-              "RelativeToolTip": "TrackerApp.API\\Model\\Budget.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T01:29:50.993Z",
+              "Title": "TrackerApp.Maui",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\TrackerApp.Maui.csproj",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\TrackerApp.Maui.csproj",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\TrackerApp.Maui.csproj",
+              "RelativeToolTip": "TrackerApp.Maui\\TrackerApp.Maui.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-17T04:29:43.415Z",
               "EditorCaption": ""
             }
           ]
