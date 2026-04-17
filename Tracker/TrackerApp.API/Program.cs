@@ -4,14 +4,25 @@ using Google.Cloud.Firestore;
 using Microsoft.CodeAnalysis;
 using Microsoft.EntityFrameworkCore;
 using TrackerApp.API.Config;
+using TrackerApp.API.Repositories;
+using TrackerApp.API.Repositories.Interfaces;
 using TrackerApp.API.Services;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddSingleton<NotificationService>();
-builder.Services.AddSingleton<UserService>();
+
+
+builder.Services.AddScoped<INotificationRepository, NotificationRepository>();
+builder.Services.AddScoped<NotificationService>();
+
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<UserService>();
+
+builder.Services.AddScoped<IBudgetRepository, BudgetRepository>();
+builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
+builder.Services.AddScoped<BudgetService>();
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
