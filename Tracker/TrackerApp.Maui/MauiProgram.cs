@@ -1,4 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
+using TrackerApp.MAUI;
+using TrackerApp.MAUI.ViewModels;
+using TrackerApp.MAUI.Views;
 
 namespace TrackerApp.Maui
 {
@@ -15,8 +18,16 @@ namespace TrackerApp.Maui
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
+            // ViewModels
+            builder.Services.AddTransient<LoginViewModel>();
+
+            // Views
+            builder.Services.AddTransient<LoginPage>();
+
+
+
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
             return builder.Build();

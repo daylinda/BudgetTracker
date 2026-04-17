@@ -3,8 +3,9 @@
     "Name": "New Profile",
     "Projects": [
       {
-        "Path": "TrackerApp.API\\TrackerApp.API.csproj",
-        "Action": "Start"
+        "Path": "TrackerApp.Maui\\TrackerApp.Maui.csproj",
+        "Action": "Start",
+        "DebugTarget": "Windows Machine"
       }
     ]
   }

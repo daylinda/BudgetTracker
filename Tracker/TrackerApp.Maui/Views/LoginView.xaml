@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:TrackerApp.MAUI.ViewModels"
+             x:Class="TrackerApp.MAUI.Views.LoginPage"
+             Title="{Binding Title}">
+
+    <VerticalStackLayout 
+        Padding="32"
+        Spacing="16"
+        VerticalOptions="Center">
+
+        <Label
+            Text="Budget Tracker"
+            FontSize="32"
+            FontAttributes="Bold"
+            HorizontalOptions="Center"/>
+
+        <Label
+            Text="Enter your User ID to continue"
+            FontSize="16"
+            TextColor="Gray"
+            HorizontalOptions="Center"/>
+
+        <Entry
+            Placeholder="User ID"
+            Text="{Binding UserId}"
+            Keyboard="Default"
+            Margin="0,16,0,0"/>
+
+        <Label
+            Text="{Binding ErrorMessage}"
+            TextColor="Red"
+            IsVisible="{Binding ErrorMessage, Converter={x:StaticResource StringToBoolConverter}}"/>
+
+        <Button
+            Text="Login"
+            Command="{Binding LoginCommand}"
+            IsEnabled="{Binding IsNotBusy}"
+            Margin="0,8,0,0"/>
+
+        <ActivityIndicator
+            IsRunning="{Binding IsBusy}"
+            IsVisible="{Binding IsBusy}"
+            HorizontalOptions="Center"/>
+
+    </VerticalStackLayout>
+</ContentPage>
