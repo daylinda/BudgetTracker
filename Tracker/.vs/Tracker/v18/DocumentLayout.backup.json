@@ -3,12 +3,151 @@
   "WorkspaceRootPath": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\services\\apibudgetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\services\\apibudgetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\viewmodels\\addtransactionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\viewmodels\\addtransactionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\views\\addtransactionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\views\\addtransactionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\views\\addtransactionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\views\\addtransactionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\viewmodels\\budgetdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\viewmodels\\budgetdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\views\\budgetdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\views\\budgetdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\views\\budgetdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\views\\budgetdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\viewmodels\\budgetlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\viewmodels\\budgetlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\views\\budgetlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\views\\budgetlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\viewmodels\\addbudgetviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\viewmodels\\addbudgetviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.api\\trackerapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|solutionrelative:trackerapp.api\\trackerapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\views\\addbudgetpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\views\\addbudgetpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\views\\budgetlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\views\\budgetlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\trackerapp.maui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\trackerapp.maui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\config\\apisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\config\\apisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\config\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\config\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|solutionrelative:trackerapp.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726017CA-BBFE-4EB1-A83A-ED1E8E747A9F}|TrackerApp.Shared\\TrackerApp.Shared.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.shared\\model\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{726017CA-BBFE-4EB1-A83A-ED1E8E747A9F}|TrackerApp.Shared\\TrackerApp.Shared.csproj|solutionrelative:trackerapp.shared\\model\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726017CA-BBFE-4EB1-A83A-ED1E8E747A9F}|TrackerApp.Shared\\TrackerApp.Shared.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.shared\\trackerapp.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{726017CA-BBFE-4EB1-A83A-ED1E8E747A9F}|TrackerApp.Shared\\TrackerApp.Shared.csproj|solutionrelative:trackerapp.shared\\trackerapp.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.api\\services\\budgetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|solutionrelative:trackerapp.api\\services\\budgetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|solutionrelative:trackerapp.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|solutionrelative:trackerapp.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.api\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|solutionrelative:trackerapp.api\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.api\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|solutionrelative:trackerapp.api\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726017CA-BBFE-4EB1-A83A-ED1E8E747A9F}|TrackerApp.Shared\\TrackerApp.Shared.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.shared\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{726017CA-BBFE-4EB1-A83A-ED1E8E747A9F}|TrackerApp.Shared\\TrackerApp.Shared.csproj|solutionrelative:trackerapp.shared\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8FC5804B-A74D-456C-B174-63F20DB42AB1}|TrackerApp.API\\TrackerApp.API.csproj|solutionrelative:trackerapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrackerApp.Maui\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Davina\\AppData\\Local\\Temp\\.vsdbgsrc\\4daaf04fe3124c688c3d9deffb539949b65eebb8ce6051d0a4d34b32497fea71\\Views_LoginView.xaml.sg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|c:\\users\\davina\\documents\\projects\\budgettracker\\tracker\\trackerapp.maui\\views\\loginview.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{61335A4F-4933-4EEF-8CE6-97DB273B6F05}|TrackerApp.Maui\\TrackerApp.Maui.csproj|solutionrelative:trackerapp.maui\\views\\loginview.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +157,486 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "TrackerApp.Maui\\AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\AppShell.xaml.cs",
-              "RelativeToolTip": "TrackerApp.Maui\\AppShell.xaml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "AddTransactionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\ViewModels\\AddTransactionViewModel.cs",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\ViewModels\\AddTransactionViewModel.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\ViewModels\\AddTransactionViewModel.cs",
+              "RelativeToolTip": "TrackerApp.Maui\\ViewModels\\AddTransactionViewModel.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T04:53:44.755Z",
+              "WhenOpened": "2026-04-20T04:24:02.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApiBudgetService.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Services\\ApiBudgetService.cs",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\Services\\ApiBudgetService.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Services\\ApiBudgetService.cs",
+              "RelativeToolTip": "TrackerApp.Maui\\Services\\ApiBudgetService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAwwEgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T02:05:19.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\AppShell.xaml.cs*",
+              "RelativeToolTip": "TrackerApp.Maui\\AppShell.xaml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T01:31:36.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\MauiProgram.cs",
+              "RelativeToolTip": "TrackerApp.Maui\\MauiProgram.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwDwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T01:35:41.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddTransactionPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Views\\AddTransactionPage.xaml.cs",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\Views\\AddTransactionPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Views\\AddTransactionPage.xaml.cs",
+              "RelativeToolTip": "TrackerApp.Maui\\Views\\AddTransactionPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T04:24:25.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddTransactionPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Views\\AddTransactionPage.xaml",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\Views\\AddTransactionPage.xaml",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Views\\AddTransactionPage.xaml",
+              "RelativeToolTip": "TrackerApp.Maui\\Views\\AddTransactionPage.xaml",
+              "ViewState": "AgIAAB0AAAAAAAAAAADwvysAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-20T04:23:44.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BudgetDetailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\ViewModels\\BudgetDetailViewModel.cs",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\ViewModels\\BudgetDetailViewModel.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\ViewModels\\BudgetDetailViewModel.cs",
+              "RelativeToolTip": "TrackerApp.Maui\\ViewModels\\BudgetDetailViewModel.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAvwFwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T04:18:43.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BudgetDetailsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Views\\BudgetDetailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\Views\\BudgetDetailsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Views\\BudgetDetailsPage.xaml.cs",
+              "RelativeToolTip": "TrackerApp.Maui\\Views\\BudgetDetailsPage.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T04:18:18.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BudgetDetailsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Views\\BudgetDetailsPage.xaml",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\Views\\BudgetDetailsPage.xaml",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Views\\BudgetDetailsPage.xaml",
+              "RelativeToolTip": "TrackerApp.Maui\\Views\\BudgetDetailsPage.xaml",
+              "ViewState": "AgIAAEoAAAAAAAAAAADwv2MAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-20T04:17:57.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BudgetListPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Views\\BudgetListPage.xaml",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\Views\\BudgetListPage.xaml",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Views\\BudgetListPage.xaml",
+              "RelativeToolTip": "TrackerApp.Maui\\Views\\BudgetListPage.xaml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-20T01:35:01.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\AppShell.xaml",
               "RelativeDocumentMoniker": "TrackerApp.Maui\\AppShell.xaml",
               "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\AppShell.xaml",
               "RelativeToolTip": "TrackerApp.Maui\\AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-04-17T04:52:21.952Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BudgetListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\ViewModels\\BudgetListViewModel.cs",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\ViewModels\\BudgetListViewModel.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\ViewModels\\BudgetListViewModel.cs",
+              "RelativeToolTip": "TrackerApp.Maui\\ViewModels\\BudgetListViewModel.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAwwG4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T04:01:11.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddBudgetViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\ViewModels\\AddBudgetViewModel.cs",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\ViewModels\\AddBudgetViewModel.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\ViewModels\\AddBudgetViewModel.cs",
+              "RelativeToolTip": "TrackerApp.Maui\\ViewModels\\AddBudgetViewModel.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAADgv0sAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T03:59:50.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "TrackerApp.Maui\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T04:03:33.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TrackerApp.API",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\TrackerApp.API.csproj",
+              "RelativeDocumentMoniker": "TrackerApp.API\\TrackerApp.API.csproj",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\TrackerApp.API.csproj",
+              "RelativeToolTip": "TrackerApp.API\\TrackerApp.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-20T03:58:20.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddBudgetPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Views\\AddBudgetPage.xaml.cs",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\Views\\AddBudgetPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Views\\AddBudgetPage.xaml.cs",
+              "RelativeToolTip": "TrackerApp.Maui\\Views\\AddBudgetPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T03:51:28.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "TrackerApp.Maui\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T01:31:20.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BudgetListPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Views\\BudgetListPage.xaml.cs",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\Views\\BudgetListPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Views\\BudgetListPage.xaml.cs",
+              "RelativeToolTip": "TrackerApp.Maui\\Views\\BudgetListPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T01:35:17.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TrackerApp.Maui.csproj",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\TrackerApp.Maui.csproj",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\TrackerApp.Maui.csproj",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\TrackerApp.Maui.csproj",
+              "RelativeToolTip": "TrackerApp.Maui\\TrackerApp.Maui.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-20T02:14:46.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApiSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Config\\ApiSettings.cs",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\Config\\ApiSettings.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Config\\ApiSettings.cs",
+              "RelativeToolTip": "TrackerApp.Maui\\Config\\ApiSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T02:25:27.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TrackerApp.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TrackerApp.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-20T01:45:09.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Config\\appsettings.json",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\Config\\appsettings.json",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Config\\appsettings.json",
+              "RelativeToolTip": "TrackerApp.Maui\\Config\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-20T03:46:44.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TrackerApp.Maui\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-20T02:30:51.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Budget.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Shared\\Model\\Budget.cs",
+              "RelativeDocumentMoniker": "TrackerApp.Shared\\Model\\Budget.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Shared\\Model\\Budget.cs",
+              "RelativeToolTip": "TrackerApp.Shared\\Model\\Budget.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T02:17:36.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TrackerApp.Shared.csproj",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Shared\\TrackerApp.Shared.csproj",
+              "RelativeDocumentMoniker": "TrackerApp.Shared\\TrackerApp.Shared.csproj",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Shared\\TrackerApp.Shared.csproj",
+              "RelativeToolTip": "TrackerApp.Shared\\TrackerApp.Shared.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-20T01:56:56.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "TrackerApp.API\\Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "TrackerApp.API\\Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T01:55:21.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Shared\\Model\\User.cs",
+              "RelativeDocumentMoniker": "TrackerApp.Shared\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Shared\\Model\\User.cs",
+              "RelativeToolTip": "TrackerApp.Shared\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T01:57:01.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BudgetService.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Services\\BudgetService.cs",
+              "RelativeDocumentMoniker": "TrackerApp.API\\Services\\BudgetService.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Services\\BudgetService.cs",
+              "RelativeToolTip": "TrackerApp.API\\Services\\BudgetService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T02:04:44.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "TrackerApp.API\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "TrackerApp.API\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAiwC8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T01:53:20.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "TrackerApp.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "TrackerApp.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAA5wDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T01:47:09.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "TrackerApp.API\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\Services\\UserService.cs",
+              "RelativeToolTip": "TrackerApp.API\\Services\\UserService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T01:58:26.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\appsettings.json",
+              "RelativeDocumentMoniker": "TrackerApp.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.API\\appsettings.json",
+              "RelativeToolTip": "TrackerApp.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-20T01:43:15.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Views\\LoginView.xaml",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\Views\\LoginView.xaml",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Views\\LoginView.xaml",
+              "RelativeToolTip": "TrackerApp.Maui\\Views\\LoginView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-20T01:29:20.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Views\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\Views\\LoginView.xaml.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Views\\LoginView.xaml.cs",
+              "RelativeToolTip": "TrackerApp.Maui\\Views\\LoginView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T01:29:19.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "TrackerApp.Maui\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwEoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T01:29:12.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Views_LoginView.xaml.sg.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\AppData\\Local\\Temp\\.vsdbgsrc\\4daaf04fe3124c688c3d9deffb539949b65eebb8ce6051d0a4d34b32497fea71\\Views_LoginView.xaml.sg.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\4daaf04fe3124c688c3d9deffb539949b65eebb8ce6051d0a4d34b32497fea71\\Views_LoginView.xaml.sg.cs",
+              "ToolTip": "C:\\Users\\Davina\\AppData\\Local\\Temp\\.vsdbgsrc\\4daaf04fe3124c688c3d9deffb539949b65eebb8ce6051d0a4d34b32497fea71\\Views_LoginView.xaml.sg.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\4daaf04fe3124c688c3d9deffb539949b65eebb8ce6051d0a4d34b32497fea71\\Views_LoginView.xaml.sg.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwBUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T01:24:15.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Views\\LoginView.xaml",
+              "RelativeDocumentMoniker": "TrackerApp.Maui\\Views\\LoginView.xaml",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\BudgetTracker\\Tracker\\TrackerApp.Maui\\Views\\LoginView.xaml",
+              "RelativeToolTip": "TrackerApp.Maui\\Views\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-20T01:23:40.433Z"
             }
           ]
         }

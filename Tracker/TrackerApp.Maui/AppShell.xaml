@@ -11,4 +11,9 @@
         ContentTemplate="{DataTemplate views:LoginPage}"
         Route="LoginPage"/>
 
+    <ShellContent
+        Title="Budgets"
+        ContentTemplate="{DataTemplate views:BudgetListPage}"
+        Route="BudgetListPage"/>
+
 </Shell>

@@ -6,6 +6,11 @@
         "Path": "TrackerApp.Maui\\TrackerApp.Maui.csproj",
         "Action": "Start",
         "DebugTarget": "Windows Machine"
+      },
+      {
+        "Path": "TrackerApp.API\\TrackerApp.API.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
       }
     ]
   }

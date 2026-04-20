@@ -8,5 +8,5 @@ public class Budget
     public decimal LimitAmount { get; set; }
     public decimal SpentAmount { get; set; }
     public string? Category { get; set; }
-    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    public decimal Remaining => LimitAmount - SpentAmount;
 }

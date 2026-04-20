@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using TrackerApp.API.Model;
+
 using TrackerApp.API.Services;
+using TrackerApp.Shared.Model;
 
 namespace TrackerApp.API.Controllers;
 
@@ -23,7 +24,7 @@ public class UserController : ControllerBase
     }
 
     [HttpGet("{userId}")]
-    public async Task<IActionResult> GetById(int userId)
+    public async Task<IActionResult> GetById(string userId)
     {
         var user = await _userService.GetUserByUserId(userId);
         return user is null ? NotFound($"User {userId} not found.") : Ok(user);
@@ -40,7 +41,7 @@ public class UserController : ControllerBase
     }
 
     [HttpPut("{userId}")]
-    public async Task<IActionResult> Update(int userId, User user)
+    public async Task<IActionResult> Update(string userId, User user)
     {
         if (user is null)
             return BadRequest("User cannot be null.");
@@ -50,7 +51,7 @@ public class UserController : ControllerBase
     }
 
     [HttpDelete("{userId}")]
-    public async Task<IActionResult> Delete(int userId)
+    public async Task<IActionResult> Delete(string userId)
     {
         var deleted = await _userService.DeleteUser(userId);
         return deleted ? NoContent() : NotFound($"User {userId} not found.");

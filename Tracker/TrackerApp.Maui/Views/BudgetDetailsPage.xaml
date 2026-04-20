@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrackerApp.MAUI.Views.BudgetDetailPage"
+             Title="{Binding Title}">
+
+    <Grid RowDefinitions="Auto,Auto,Auto,*,Auto" Padding="16">
+
+        <!-- Budget Summary -->
+        <Frame Grid.Row="0" Padding="16" CornerRadius="12" Margin="0,0,0,16">
+            <Grid RowDefinitions="Auto,Auto,Auto"
+                  ColumnDefinitions="*,*">
+
+                <Label Grid.Row="0" Grid.ColumnSpan="2"
+                       Text="{Binding Budget.Name}"
+                       FontSize="22"
+                       FontAttributes="Bold"
+                       Margin="0,0,0,8"/>
+
+                <Label Grid.Row="1" Grid.Column="0"
+                       Text="Limit"
+                       TextColor="Gray"/>
+                <Label Grid.Row="1" Grid.Column="1"
+                       Text="{Binding Budget.LimitAmount, StringFormat='${0:F2}'}"
+                       HorizontalOptions="End"/>
+
+                <Label Grid.Row="2" Grid.Column="0"
+                       Text="Spent"
+                       TextColor="Gray"/>
+                <Label Grid.Row="2" Grid.Column="1"
+                       Text="{Binding Budget.SpentAmount, StringFormat='${0:F2}'}"
+                       HorizontalOptions="End"
+                       TextColor="Red"/>
+
+            </Grid>
+        </Frame>
+
+        <ActivityIndicator Grid.Row="1"
+                           IsRunning="{Binding IsBusy}"
+                           IsVisible="{Binding IsBusy}"
+                           HorizontalOptions="Center"/>
+
+        <Label Grid.Row="2"
+               Text="{Binding ErrorMessage}"
+               TextColor="Red"
+               IsVisible="{Binding HasError}"
+               Margin="0,8"/>
+
+        <!-- Transactions List -->
+        <CollectionView Grid.Row="3"
+                        ItemsSource="{Binding Transactions}">
+            <CollectionView.EmptyView>
+                <Label Text="No transactions yet."
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       TextColor="Gray"
+                       FontSize="16"/>
+            </CollectionView.EmptyView>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Margin="0,6" Padding="12" CornerRadius="8">
+                        <Grid ColumnDefinitions="*,Auto,Auto">
+
+                            <VerticalStackLayout Grid.Column="0">
+                                <Label Text="{Binding Description}"
+                                       FontAttributes="Bold"
+                                       FontSize="16"/>
+                                <Label Text="{Binding Date, StringFormat='{0:dd MMM yyyy}'}"
+                                       TextColor="Gray"
+                                       FontSize="12"/>
+                            </VerticalStackLayout>
+
+                            <Label Grid.Column="1"
+                                   Text="{Binding Amount, StringFormat='${0:F2}'}"
+                                   VerticalOptions="Center"
+                                   Margin="8,0"
+                                   TextColor="{Binding Type, Converter={x:StaticResource TransactionTypeToColorConverter}}"/>
+
+                            <Button Grid.Column="2"
+                                    Text="Delete"
+                                    BackgroundColor="Red"
+                                    TextColor="White"
+                                    CornerRadius="8"
+                                    CommandParameter="{Binding TransactionId}"
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DeleteTransactionCommand}"/>
+
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <!-- Add Transaction Button -->
+        <Button Grid.Row="4"
+                Text="+ Add Transaction"
+                Command="{Binding GoToAddTransactionCommand}"
+                Margin="0,16,0,0"/>
+
+    </Grid>
+</ContentPage>

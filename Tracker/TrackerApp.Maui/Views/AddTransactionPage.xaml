@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrackerApp.MAUI.Views.AddTransactionPage"
+             Title="Add Transaction">
+
+    <VerticalStackLayout Padding="24" Spacing="16">
+
+        <Label Text="Description" FontAttributes="Bold"/>
+        <Entry Placeholder="e.g. Woolworths"
+               Text="{Binding Description}"/>
+
+        <Label Text="Amount" FontAttributes="Bold"/>
+        <Entry Placeholder="e.g. 50"
+               Text="{Binding Amount}"
+               Keyboard="Numeric"/>
+
+        <Label Text="Type" FontAttributes="Bold"/>
+        <HorizontalStackLayout Spacing="16">
+            <RadioButton Content="Money In"
+                         Value="in"
+                         IsChecked="{Binding IsMoneyIn}"
+                         GroupName="TransactionType"/>
+            <RadioButton Content="Money Out"
+                         Value="out"
+                         IsChecked="{Binding IsMoneyOut}"
+                         GroupName="TransactionType"/>
+        </HorizontalStackLayout>
+
+        <Label Text="{Binding ErrorMessage}"
+               TextColor="Red"
+               IsVisible="{Binding HasError}"/>
+
+        <Button Text="Add Transaction"
+                Command="{Binding AddTransactionCommand}"
+                IsEnabled="{Binding IsNotBusy}"
+                Margin="0,16,0,0"/>
+
+        <ActivityIndicator IsRunning="{Binding IsBusy}"
+                           IsVisible="{Binding IsBusy}"
+                           HorizontalOptions="Center"/>
+
+    </VerticalStackLayout>
+</ContentPage>

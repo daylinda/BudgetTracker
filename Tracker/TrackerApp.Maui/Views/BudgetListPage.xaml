@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrackerApp.MAUI.Views.BudgetListPage"
+             Title="{Binding Title}">
+
+    <Grid RowDefinitions="Auto,Auto,*,Auto" Padding="16">
+
+        <ActivityIndicator Grid.Row="0"
+                           IsRunning="{Binding IsBusy}"
+                           IsVisible="{Binding IsBusy}"
+                           HorizontalOptions="Center"/>
+
+        <Label Grid.Row="1"
+               Text="{Binding ErrorMessage}"
+               TextColor="Red"
+               IsVisible="{Binding HasError}"
+               Margin="0,8"/>
+
+        <CollectionView Grid.Row="2"
+                        ItemsSource="{Binding Budgets}"
+                        
+                        >
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout Orientation="Vertical" 
+                           ItemSpacing="12"/>
+            </CollectionView.ItemsLayout>
+            <CollectionView.EmptyView>
+                <Label Text="No budgets yet. Add one!"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       TextColor="Gray"
+                       FontSize="16"/>
+            </CollectionView.EmptyView>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Margin="0,12" Padding="16" CornerRadius="12">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer 
+            Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.GoToBudgetDetailCommand}"
+            CommandParameter="{Binding .}"/>
+                        </Frame.GestureRecognizers>
+                        <Grid RowDefinitions="Auto,Auto,Auto"
+                              ColumnDefinitions="*,Auto" Margin="5">
+
+                            <Label Grid.Row="0" Grid.Column="0"
+                                   Text="{Binding Name}"
+                                   FontSize="18"
+                                   FontAttributes="Bold"/>
+
+                            <Label Grid.Row="1" Grid.Column="0"
+                                   Text="{Binding Category}"
+                                   TextColor="Gray"/>
+
+                            <Label Grid.Row="2" Grid.Column="0"
+                                   Text="{Binding Remaining, StringFormat='Remaining: ${0:F2}'}"
+                                   TextColor="Green"/>
+
+                            <VerticalStackLayout Grid.Row="0"
+                                                 Grid.Column="1"
+                                                 Grid.RowSpan="3"
+                                                 Spacing="8"
+                                                 VerticalOptions="Center">
+                                <Button Text="Reset"
+                                        BackgroundColor="Orange"
+                                        TextColor="White"
+                                        CornerRadius="8"
+                                        CommandParameter="{Binding BudgetId}"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.ResetBudgetCommand}"/>
+                                <Button Text="Delete"
+                                        BackgroundColor="Red"
+                                        TextColor="White"
+                                        CornerRadius="8"
+                                        CommandParameter="{Binding BudgetId}"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DeleteBudgetCommand}"/>
+                            </VerticalStackLayout>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button Grid.Row="3"
+                Text="+ Add Budget"
+                Command="{Binding GoToAddBudgetCommand}"
+                Margin="0,16,0,0"/>
+    </Grid>
+</ContentPage>

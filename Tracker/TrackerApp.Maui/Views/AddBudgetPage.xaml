@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrackerApp.MAUI.Views.AddBudgetPage"
+             Title="Add Budget">
+
+    <VerticalStackLayout Padding="24" Spacing="16">
+
+        <Label Text="Budget Name" FontAttributes="Bold"/>
+        <Entry Placeholder="e.g. Groceries"
+               Text="{Binding Name}"/>
+
+        <Label Text="Category" FontAttributes="Bold"/>
+        <Entry Placeholder="e.g. Food"
+               Text="{Binding Category}"/>
+
+        <Label Text="Limit Amount" FontAttributes="Bold"/>
+        <Entry Placeholder="e.g. 500"
+               Text="{Binding LimitAmount}"
+               Keyboard="Numeric"/>
+
+        <Label Text="{Binding ErrorMessage}"
+               TextColor="Red"
+               IsVisible="{Binding HasError}"/>
+
+        <Button Text="Add Budget"
+                Command="{Binding AddBudgetCommand}"
+                IsEnabled="{Binding IsNotBusy}"
+                Margin="0,16,0,0"/>
+
+        <ActivityIndicator IsRunning="{Binding IsBusy}"
+                           IsVisible="{Binding IsBusy}"
+                           HorizontalOptions="Center"/>
+
+    </VerticalStackLayout>
+</ContentPage>
